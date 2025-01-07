@@ -1,0 +1,22 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: 0;
+}
+.header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vh 8vw;
+    border-bottom: 2px solid #f2f2f2;
+}
+.logo{
+    width:12vw;
+}
+.option{
+    display: flex;
+}
+a{
+    display: flex;
+    gap:2vw;
+}
