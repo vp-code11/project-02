@@ -15,6 +15,7 @@ body {
     justify-content: space-between;
     padding: 4vh 8vw;
     border-bottom: 2px solid #f2f2f2;
+    position: fixed;
 }
 
 .logo img {
@@ -154,4 +155,61 @@ body {
 .image .l2 {
     padding-left: 1vw;
     padding-right: 9vw;
+}
+
+.press-logo img {
+    padding-left: 250px;
+    padding-top: 60px;
+}
+
+.pricing {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.left {
+    padding-left: 100px;
+    box-sizing: border-box;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.left p {
+    line-height: 24px;
+    color: #666666;
+    padding-bottom: 20px;
+}
+
+.left a {
+    text-decoration: none;
+    color: #387ed1;
+}
+
+.left h1 {
+    padding-bottom: 35px;
+    color: #424242;
+
+}
+
+.right img {
+    width: 10vw;
+}
+
+.right {
+    display: flex;
+    padding-top: 35px;
+    padding-right: 120px;
+}
+
+.right p {
+    font-size: 11px;
+    padding-top: 45px;
+    padding-left: -19px;
+    color: #666666;
+
 }
